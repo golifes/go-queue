@@ -11,11 +11,11 @@ func main() {
 	consumer := dq.NewConsumer(dq.DqConf{
 		Beanstalks: []dq.Beanstalk{
 			{
-				Endpoint: "localhost:11300",
+				Endpoint: "172.18.133.218:11301",
 				Tube:     "tube",
 			},
 			{
-				Endpoint: "localhost:11300",
+				Endpoint: "172.18.133.218:11302",
 				Tube:     "tube",
 			},
 		},
